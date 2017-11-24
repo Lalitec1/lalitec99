@@ -1,6 +1,6 @@
 [Project]
-FileName=Proyecto0.dev
-Name=Proyecto0
+FileName=Ejercicio1.dev
+Name=Ejercicio1
 UnitCount=1
 Type=1
 Ver=1
@@ -30,7 +30,7 @@ CompilerSet=0
 CompilerSettings=
 
 [Unit1]
-FileName=Proyecto0.c
+FileName=Ejercicico_1.c
 CompileCpp=0
 Folder=
 Compile=1

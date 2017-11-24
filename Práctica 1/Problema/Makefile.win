@@ -1,17 +1,17 @@
-# Project: Proyecto0
+# Project: Problema
 # Makefile created by Dev-C++ 5.11
 
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = Proyecto0.o
-LINKOBJ  = Proyecto0.o
-LIBS     = -L"C:/Program Files/Dev-Cpp/MinGW64/lib" -L"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+OBJ      = Problema.o
+LINKOBJ  = Problema.o
+LIBS     = -L"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -m32
 INCS     = -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
-BIN      = Proyecto0.exe
-CXXFLAGS = $(CXXINCS) 
-CFLAGS   = $(INCS) 
+BIN      = Problema.exe
+CXXFLAGS = $(CXXINCS) -m32
+CFLAGS   = $(INCS) -m32
 RM       = rm.exe -f
 
 .PHONY: all all-before all-after clean clean-custom
@@ -24,5 +24,5 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-Proyecto0.o: Proyecto0.c
-	$(CC) -c Proyecto0.c -o Proyecto0.o $(CFLAGS)
+Problema.o: Problema.c
+	$(CC) -c Problema.c -o Problema.o $(CFLAGS)

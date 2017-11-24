@@ -1,6 +1,6 @@
 [Project]
-FileName=Proyecto0.dev
-Name=Proyecto0
+FileName=Ejemplo expresiones.dev
+Name=Ejemplo expresiones
 UnitCount=1
 Type=1
 Ver=1
@@ -30,7 +30,7 @@ CompilerSet=0
 CompilerSettings=
 
 [Unit1]
-FileName=Proyecto0.c
+FileName=Ejemplo expresiones.c
 CompileCpp=0
 Folder=
 Compile=1
