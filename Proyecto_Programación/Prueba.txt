@@ -1,0 +1,10 @@
+.begin            !Inicio del programa
+.org 2048         !Dirección de inicio de donde inician las instrucciones
+ld[x],%r1         !Carga el valor de x en el registro %r1, por lo tanto %r1=15
+ld[y],%r2         !Carga el valor de y en el registro %r2, por lo tanto %r2=3
+addcc%r1,%r2,%r3  !Suma %r1 mas %r2, y almacena el resultado en %r3,%r3=18
+st%r3,[z]         !Almacena el valor del registro %r3 en la localidad z,[z]=18
+x:15
+y:3
+z:0
+.en               !Fin del programa
